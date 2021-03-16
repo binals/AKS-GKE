@@ -88,9 +88,7 @@ Open a new terminal to test the app is running:
     curl http://localhost:8080
 
 **Push the image to container registry:**
-Google Container Registry is found at
-
-    gcr.io/\<PROJECT ID\>.
+Google Container Registry is found at gcr.io/\<PROJECT ID\>.
 
 Upload the image to this registry.
 
