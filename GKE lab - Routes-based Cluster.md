@@ -132,25 +132,22 @@ Under ‘Nodes’,
 - 	Networking: hello-nodes
 
 Under Cluster -> Networking
-- 	Select Public cluster
-- 	Network: default
-- 	Subnet: default
-- 	Advanced networking:
-
-Disable VPC-native routing
-
-Disable HTTP Load balancing
+- Select Public cluster
+- Network: default
+- Subnet: default
+- Disable VPC-native routing
+- Disable HTTP Load balancing
 
 Click Create once you have configured the above values.
 
-Deploy application
+## Deploy application
 
 Next, deploy an app to the cluster.
 -	Go to the cluster menu and select the cluster you just created. Click DEPLOY from the top menu options.
 -	Select existing container image. 
 -	For image path, select the image from the container registry you previously created, then click DONE.
 
-![iamge](./images/gkelab-image7.png)
+![image](./images/gkelab-image7.png)
 
 Click DONE and CONTINUE to configure the application details as follows:
 
@@ -162,7 +159,7 @@ Labels: Key: app, Value: hello-app
 
 Cluster: hello-cluster
 
-![iamge](./images/gkelab-image8.png)
+![image](./images/gkelab-image8.png)
 
 
 Click DEPLOY.
